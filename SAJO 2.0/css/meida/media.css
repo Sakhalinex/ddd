@@ -1,0 +1,131 @@
+/*1800-1999*/
+@media (min-width:1800px) and (max-width:1900px) {
+    
+}
+
+
+/*1700-1799*/
+@media (min-width:1700px) and (max-width:1799px) {}
+
+
+/*1600-1699*/
+@media (min-width:1600px) and (max-width:1699px) {}
+
+
+/*1500-1599*/
+@media (min-width:1500px) and (max-width:1599px) {}
+
+
+/*1400-1499*/
+@media (min-width:1400px) and (max-width:1499px) {}
+
+
+/*1300-1399*/
+@media (min-width:1300px) and (max-width:1399px) {}
+
+
+/*1200-1299*/
+@media (min-width:1200px) and (max-width:1299px) {
+    
+    /*Section-products*/
+    
+.product-block-none {
+    display: none;
+}
+    
+.news__title {
+       width: 95%;
+}
+    
+}
+
+/*1100-1199*/
+@media (min-width:1100px) and (max-width:1199px) {
+.product-block-none {
+    display: none;
+    }
+    
+    /*Section-news*/
+    
+.news-block-none {
+    display: none;
+    }
+    
+    .news__content {
+        justify-content: center;
+    }
+    
+    .news__wrapper-card {
+        margin: 0 auto;
+    }
+}
+
+
+/*1000-1099*/
+@media (min-width:1000px) and (max-width:1099px) {
+    .product-block-none {
+    display: none;
+}
+    
+    /*Section-news*/
+    
+.news-block-none {
+    display: none;
+    }
+    
+    .news__content {
+        justify-content: center;
+    }
+    
+    .news__wrapper-card {
+        margin: 0 auto;
+    }
+   
+}
+
+
+/*900-999*/
+@media (min-width:900px) and (max-width:999px) {
+    .product-block-none {
+    display: none;
+}
+    
+    /*Section-news*/
+    
+.news-block-none {
+    display: none;
+    }
+    
+    .news__content {
+        justify-content: center;
+    }
+    
+    .news__wrapper-card {
+        margin: 0 auto;
+    }
+  
+}
+
+
+/*800-899*/
+@media (min-width:800px) and (max-width:899px) {}
+
+
+/*700-799*/
+@media (min-width:700px) and (max-width:799px) {}
+
+
+/*600-699*/
+@media (min-width:600px) and (max-width:699px) {}
+
+
+/*500-599*/
+@media (min-width:500px) and (max-width:599px) {}
+
+
+/*400-499*/
+@media (min-width:400px) and (max-width:499px) {}
+
+
+/*300-399*/
+@media (min-width:300px) and (max-width:399px) {}
