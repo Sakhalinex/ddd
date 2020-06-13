@@ -21,12 +21,12 @@ body {
 /*Container*/
 
 .container {
-    max-width: 1900px;
+    max-width: 5000px;
     
 }
 
 .header__container {
-    max-width: 1900px;
+    max-width: 5000px;
 }
 
 
@@ -58,9 +58,7 @@ body {
     z-index: 1;
     justify-content: space-between;
     width: 90%;
-    padding-left: 15em
-    
-    
+    padding-left: 15em 
 }
 
 .nav__logo img {
@@ -73,12 +71,12 @@ body {
     align-items: center;
 }
 
-.nav__link a {
+.nav__link a, .open-sub {
     font-weight: 600;
     font-size: 1.8em;
     color: #4F4F4F;
     transition: .5s;
-    margin: 0 15px;
+    margin: 0 35px;
 }
 
 .nav__link a:hover {
@@ -105,13 +103,6 @@ body {
 
 
 /*-sub-menu*/
-
-.open-sub {
-    position: relative;
-    font-weight: 600;
-    font-size: 1.8em;
-    color: #4F4F4F;
-}
 
 .open-sub:hover {
     transition: .5s;
@@ -195,7 +186,7 @@ body {
 
 .sub-menu-block.active {
     display: block;
-    top: 100%;;
+    top: 100%;
     right: -9.5%;
     transition: all 2s ease 0s;
 }
@@ -260,8 +251,8 @@ body {
 }
 
 .header__slider-item {
-    padding-top: 26em;
-    padding-left: 11em;
+    padding-top: 15em;
+    padding-left: 7em;
     background-size: 100%;
     padding-bottom: 100px;
     
@@ -317,7 +308,8 @@ body {
     font-weight: 500;
     font-size: 1.8em;
     color: #FFFFFF;
-    padding-left: 41px;
+    display: flex;
+    justify-content: center;
     transition: 0.5s;
     
 }
@@ -542,7 +534,7 @@ body {
 
 .logo__image {
     text-align: center;
-    max-width: 1900px;
+    max-width: 5000px;
 }
 
 .logo__image img {
